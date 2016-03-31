@@ -1,0 +1,33 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+$lightblue : #2cafe3;
+$darkbluegrey : #083242;
+$cpad: 20px;
+
+
+body {
+background-color: $lightblue  42%;
+}
+
+.content {
+padding: $cpad;
+}
+
+.navbar {
+  background-color: $darkbluegrey;
+  color: $lightblue;
+}
+
+.navbar-brand {
+color: $lightblue;
+}
+
+.content {
+background-color: #EEEDF2;
+margin: 30px 1em;
+padding: 0.5em 1em;
+box-shadow: 0 1px 4px rgba(0, 0, 0, .04);
+border: 1px solid rgba(0, 0, 0, .09);
+border-radius: 3px;
+}
