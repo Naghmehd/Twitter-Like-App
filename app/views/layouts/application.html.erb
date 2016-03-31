@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Twitter</title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
@@ -8,8 +9,8 @@
 </head>
   <body>
     <%= render 'shared/navigation' %>
-
-    <%= yield %>
-
+    <div class="content">
+      <%= yield %>
+    </div>
   </body>
 </html>

@@ -1,17 +1,15 @@
 
-<p>
+<div class="users-page">
   <a href="/users">Go to All users</a>
-</p>
-
-<h1>I am a tweet!</h1>
+</div>
 
 <h1> All Tweets </h1>
 
  <div>
-   <ol>
+   <ul>
    <% @tweets.each do |tweet| %>
      <li><%= tweet.message %> </li><% end %>
-   </ol>
+   </ul>
 <%=  will_paginate @tweets %>
 
  </div>
